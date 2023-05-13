@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Help Desk - Placement Portal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="helpdesk.css">
+</head>
+<body>
+  <header>
+    <h1>Help Desk</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="profile1.html">Profile</a>
+      <a href="job-detail.html">Jobs</a>
+      <a href="settings.html">Settings</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Help Assistance</h2>
+    <section class="submit-ticket">
+      <h3>Submit a Ticket</h3>
+      <form>
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject">
+        <label for="description">Description</label>
+        <textarea id="description" name="description" rows="5"></textarea>
+        <button type="submit" class="btn">Submit Ticket</button>
+      </form>
+    </section>
+    <section class="tickets">
+      <h3>Tickets</h3>
+      <ul>
+        <li>
+          <div class="ticket">
+            <h4>How do I apply for a job?</h4>
+            <p><i class="far fa-clock"></i> Created 2 days ago by John Doe</p>
+            <a href="#" class="btn">View</a>
+          </div>
+        </li>
+        <li>
+          <div class="ticket">
+            <h4>What are the qualifications for a software developer job?</h4>
+            <p><i class="far fa-clock"></i> Created 5 days ago by Jane Smith</p>
+            <a href="#" class="btn">View</a>
+          </div>
+        </li>
+        <li>
+          <div class="ticket">
+            <h4>How do I update my profile information?</h4>
+            <p><i class="far fa-clock"></i> Created 1 week ago by Bob Johnson</p>
+            <a href="#" class="btn">View</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Placement Portal</p>
+  </footer>
+</body>
+</html>

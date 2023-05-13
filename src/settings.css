@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #25316d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #34495e;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #34495e;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Privacy Styles */
+  .privacy-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .privacy-section h2 {
+    color: #34495e;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-section label {
+    color: #666;
+  }
+  
+  .privacy-section select {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  
+  .privacy-section input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  

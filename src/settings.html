@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Placement Portal Settings</title>
+	<link rel="stylesheet" type="text/css" href="settings.css">
+</head>
+<body>
+	<header>
+		<h1>Settings</h1>
+	</header>
+	<main>
+		<h2>General Settings</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required><br><br>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required><br><br>
+
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required><br><br>
+
+			<label for="confirm-password">Confirm Password:</label>
+			<input type="password" id="confirm-password" name="confirm-password" required><br><br>
+
+			<label for="profile-picture">Profile Picture:</label>
+			<input type="file" id="profile-picture" name="profile-picture"><br><br>
+
+			<input type="submit" value="Save Changes">
+		</form>
+
+		<h2>Privacy Settings</h2>
+		<form>
+			<label for="visibility">Profile Visibility:</label>
+			<select id="visibility" name="visibility">
+				<option value="public">Public</option>
+				<option value="private">Private</option>
+			</select><br><br>
+
+			<label for="notifications">Email Notifications:</label>
+			<input type="checkbox" id="notifications" name="notifications"><br><br>
+
+			<input type="submit" value="Save Changes">
+		</form>
+	</main>
+</body>
+</html>
